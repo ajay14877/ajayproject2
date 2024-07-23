@@ -1,0 +1,105 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    cursor: pointer;
+}
+body{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* justify-content: center;  */
+     align-items: center; 
+    background-image: url(bg.jpg); 
+    background-size: cover;
+      
+  
+    
+
+}
+form{
+
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(235, 229, 229, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(236, 236, 237, 0.37);
+    border-radius: 40px;
+    border-left: 2px solid rgba(65, 63, 63, 0.3);
+    border-right: 2px solid rgba(69, 68, 68, 0.3);
+    position: fixed;
+    margin-left: 550px;
+    
+    margin-top: 180px;
+    
+  
+    
+
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(246, 9, 9);
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    letter-spacing: 3px;    
+    margin-bottom: 3%;
+    margin-top: 3%;
+    opacity: .9;
+
+}
+input{
+    width: 80%;
+    height: 8%;
+    color: rgb(247, 11, 11);
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+
+}
+input::placeholder{
+    color: rgb(247, 12, 12);
+    font-size: 15px;
+    
+}
+button{
+    width: 80%;
+    height: 8%;
+    margin: 3% auto;
+    color: rgb(247, 242, 242);
+    font-size: 1rem;
+    opacity: .8;
+    border-color: rgb(244, 6, 6);
+    background-color: rgb(249, 54, 5);
+    outline: none;
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+    
+
+   
+}
+@keyframes ajay{
+         20%{
+            margin-left: 1000px;
+        }
+        40%{
+            margin-left: 750px;
+        }
+
+60%{
+    margin-left:500 px;
+}
+80%{
+    margin-left:250px;
+}
+100%{
+    margin-left: 0px; 
+    
+}
+}
+
+  
+
